@@ -30,9 +30,9 @@ See http://github.com/matflores/protest for more info about Protest.
 
 == Legal
 
-Maintainer: Matías Flores — http://matflores.com
-This gem was extracted from the original work of Nicolás Sanguinetti — http://nicolassanguinetti.info
-License: MIT (see bundled LICENSE file for more info)
+Maintainer:: Matías Flores — http://matflores.com
+Credits:: This gem was extracted from the original work of Nicolás Sanguinetti — http://nicolassanguinetti.info
+License:: MIT (see bundled LICENSE file for more info)
 
 == Disclaimer
 

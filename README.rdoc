@@ -1,0 +1,39 @@
+= Protest, the simplicity rebel test framework
+
+    require "protest"
+
+    Protest.describe("A user") do
+      setup do
+        @user = User.new(:name => "John Doe", :email => "john@example.org")
+      end
+
+      it "has a name" do
+        assert_equal "John Doe", @user.name
+      end
+
+      it "has an email" do
+        assert_equal "john@example.org", @user.email
+      end
+    end
+
+Protest is a small, simple, and easy-to-extend testing framework for ruby. It
+was written as a replacement for Test::Unit, given how awful its code is, and
+how difficult it is to extend in order to add new features.
+
+I believe in minimalistic software, which is easily understood, easy to test,
+and specially, easy to extend for third parties. That's where I'm aiming with
+Protest.
+
+Protest-rails brings the simplicity of Protest into the Rails world.
+
+See http://github.com/matflores/protest for more info about Protest.
+
+== Legal
+
+Maintainer: Matías Flores — http://matflores.com
+This gem was extracted from the original work of Nicolás Sanguinetti — http://nicolassanguinetti.info
+License: MIT (see bundled LICENSE file for more info)
+
+== Disclaimer
+
+Currently I am not using Protest heavily in any complex Rails app, so Protest-rails is not as tested and supported as vanilla Protest is.
